@@ -1,0 +1,8 @@
+config BR2_PACKAGE_WESTON_SERVICE
+	bool "weston-service"
+	select BR2_PACKAGE_WESTON
+	depends on BR2_PACKAGE_SYSTEMD
+	help
+	  Start the weston compositor as service.
+	  
+	  http://wayland.freedesktop.org/

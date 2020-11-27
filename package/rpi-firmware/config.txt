@@ -23,3 +23,10 @@ disable_overscan=1
 gpu_mem_256=100
 gpu_mem_512=100
 gpu_mem_1024=100
+
+dtoverlay=vc4-kms-v3d-pi4
+max_usb_current=1
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 800 480 60 3 0 0 0
+hdmi_drive=2
